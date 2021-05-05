@@ -1,5 +1,7 @@
 import { useState } from  "react";
 
+// http://api.weatherapi.com/v1/current.json?key=23a9ae97d56d4409aa022703210505&q=Osaka&aqi=no
+
 const Form = () =>{
     const [city,setCity] = useState("");
     return (
