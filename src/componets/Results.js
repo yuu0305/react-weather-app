@@ -1,6 +1,6 @@
-const Results = () => {
+const Results = (props) => {
     return(
-        <h1>気象データ</h1>
+        <h1>気象データ{props.results.country}</h1>
     );
 };
 
