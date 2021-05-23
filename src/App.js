@@ -31,6 +31,8 @@ function App() {
           icon:res.data.current.condition.icon
       })
     })
+    // 該当の都市が存在しない場合、
+    .catch(err =>alert("エラーが発生しました。リロードして再度お試しください"))
   }
 
   return (
